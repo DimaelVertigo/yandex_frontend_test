@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Тестовое задание</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <section class="main-container">
+
+        <article class="clearfix task">
+            <h2>
+                Напишите небольшой текст на важную для вас тему, связанную с профессией. Сверстайте его в начале задания. 
+            </h2>
+            <ol>
+                <li>
+                    В качестве текста я использую комментарии к решению задач, т.к. они они затрагивают некоторые технические особенности.
+                </li>
+                <li>
+                    В задании номер два для стилизации кастомных радио-кнопок я использовал дополнительный элемент <i>span</i>
+                    . Из-за специфики CSS понадобилось инвертировать направление элементов, располагая их справа налево. "Некрасивое" расположение элементов в разметке обусловлено исключением пробелов между ними.
+                    <br>            
+                    На случай отключения изображений рейтинг все равно отобразится.
+                </li>
+                <li>
+                    Во всех заданиях я намеренно не использовал возможности JS. В третьей задаче, для прогресс-бара можно было бы использовать минимум разметки и обойтись всего одним элементом, но в этом случае он останется не функциональным.
+                </li>
+                <li>
+                    В четвертом задании представить кнопку в таком виде можно также использовав в качестве фона изображение или svg.
+                </li>
+                <li>
+                    Для реализации появления текста вместо иконок браузеров я использовал ограниченные размеры контейнера для изображения, чтобы для текста освобождалось место, когда картинка отсутствует, иначе он скрыт за его пределами.
+                </li>
+            </ol>
+        </article>
+
+        <article class="clearfix">
+            <h2>Сверстайте контрол оценки и показа рейтинга </h2>
+            <form class="stars">
+                <fieldset>
+                    <input type="radio" id="star5" name="star" value="5" /><label for="star5"><span></span></label><input type="radio" id="star4" name="star" value="4" /><label for="star4"><span></span></label><input type="radio" id="star3" name="star" value="3" /><label for="star3"><span></span></label><input type="radio" id="star2" name="star" value="2" /><label for="star2"><span></span></label><input type="radio" id="star1" name="star" value="1" /><label for="star1"><span></span></label>
+                </fieldset>
+            </form>
+        </article>
+
+        <article class="clearfix">
+            <h2>Сверстайте прогресс-бар</h2>
+            <div class="progress-bar" data-progress="20%">
+                <div class="percent">20%</div>
+                <div class="progress"></div>
+            </div>
+        </article>
+
+        <article class="clearfix">
+            <h2>Сверстайте кнопку</h2>
+            <a href="#" class="btn" onclick="return false;">кнопка-ссылка</a>
+            <span class="btn">кнопка-элемент</span>
+            <button class="btn">Кнопка "Кнопка"</button>
+            <input class="btn" type="button" value="Кпопка-отправка" >
+        </article>
+
+        <article class="clearfix">
+            <h2>Сверстайте список из иконок </h2>
+            <ul class="browsers">
+                <li class="browser browser-1">
+                    <img src="img/icon3.png" alt="Chrome">                
+                    <p>
+                        <span>ch</span><span>ro</span><span>me</span>
+                    </p>
+                </li>
+                <li class="browser browser-2">
+                    <img src="img/icon4.png" alt="Firefox">                
+                    <p>firefox</p>
+                </li>
+                <li class="browser browser-3">
+                    <img src="img/icon5.png" alt="Opera">                
+                    <p>opera</p>
+                </li>
+                <li class="browser browser-4">
+                    <img src="img/icon6.png" alt="Safari">                
+                    <p>safari</p>
+                </li>
+                <li class="browser browser-5">
+                    <img src="img/icon7.png" alt="IE">                
+                    <p>
+                        internet
+                        <br>explorer</p>
+                </li>
+            </ul>
+        </article>
+
+        <article class="clearfix text">
+            <h2>Сверстайте текст</h2>
+            <h3>
+                Тема: «Сюжетный анапест:
+                <br>основные моменты»</h3>
+            <div class="column">
+                <p>
+                    Нельзя восстановить истинной хронологической последовательности событий, потому что мелькание мыслей параллельно. Структура аллитерирует мелодический реформаторский пафос, однако дальнейшее развитие приемов декодирования мы находим в работах академика В.Виноградова. Аллюзия наблюдаема. Аллитерация, как бы это ни казалось парадоксальным, параллельна. Мифопорождающее текстовое устройство прочно вызывает эпитет, причём сам Тредиаковский свои стихи мыслил как “стихотворное дополнение” к книге Тальмана.
+                </p>
+                <p>
+                    Речевой акт традиционно осознаёт музыкальный дольник, но не рифмами. Различное расположение просветляет мелодический образ, таким образом постепенно смыкается с сюжетом. Силлабо-тоника, в первом приближении, просветляет мелодический ямб, таким образом в некоторых случаях образуются рефрены, кольцевые композиции, анафоры.
+                </p>
+            </div>
+            <div class="column">
+                <p>
+                    Представленный лексико-семантический анализ является психолингвистическим в своей основе, но мифопорождающее текстовое устройство аллитерирует мифологический генезис свободного стиха, об этом свидетельствуют краткость и завершенность формы, бессюжетность, своеобразие тематического развертывания.
+                </p>
+                <p>
+                    Драма, по определению отражает брахикаталектический стих, хотя в существование или актуальность этого он не верит, а моделирует собственную реальность. Лексика осознаёт литературный палимпсест, об этом свидетельствуют краткость и завершенность формы, бессюжетность, своеобразие тематического развертывания.
+                </p>
+                <ul>
+                    <li>Курит ли трупка мой</li>
+                    <li>
+                        <a href="#">из трупка тфой пихтишь</a>
+                    </li>
+                    <li>
+                        <span>Или мой кафе пил</span>
+                    </li>
+                    <li>тфой в щашешка сидишь</li>
+                </ul>
+            </div>
+        </article>
+    </section><!-- main-container -->
+</body>
+</html>
